@@ -1,0 +1,80 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="images/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+    function changeSizeShow(whichiframe){
+        var tag=parent.document.getElementById(whichiframe);
+        tag.height=document.body.scrollHeight;
+        tag.width=188;
+    }
+</script>
+
+<table width="188" height="598" border="0" cellpadding="0" cellspacing="0" background="images/index_02.jpg">
+    <tr>
+        <td valign="top">
+            <table width="177" height="147" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td height="147" valign="bottom">
+                    <br> <br><br>
+                    <form name="form" method="post" action="">
+                        <table width="177" border="0" align="center">
+                            <tr>
+                                <td width="95" height="30" valign="bottom">新闻类型：</td>
+                                <td width="82" valign="bottom">
+                                    <select name="select">
+                                    ###type###
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" valign="bottom">关&nbsp;键&nbsp;字：</td>
+                                <td valign="bottom"><input name="textfield" type="text" size="15"></td>
+                            </tr>
+                            <tr>
+                                <td height="30" valign="bottom">&nbsp;</td>
+                                <td valign="bottom">
+                                    <input type="submit" name="Submit" value=" 搜索 ">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+            <table width="181" height="47" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="47">&nbsp;</td>
+                </tr>
+            </table>
+            <table width="181" border="0" cellpadding="0" cellspacing="0" background="images/news_12.jpg">
+                <tr>
+                    <td width="21" height="84">&nbsp;</td>
+                    <td width="110">
+                        <marquee class=linkBlack onMouseOver=this.stop()
+                                 onMouseOut=this.start() scrollamount=1 scrolldelay=1
+                                 direction=up height=84>
+                            ###afficheNews###
+                        </marquee>                                    </td>
+                    <td width="21">&nbsp;</td>
+                </tr>
+            </table>
+            <table width="181" height="65" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="65">&nbsp;</td>
+                </tr>
+            </table>
+            <table width="177" height="95" border="0" cellpadding="0" cellspacing="0" background="images/news_12.jpg">
+                <tr>
+                    <td width="16" height="95">&nbsp;</td>
+                    <td width="137">
+                        <MARQUEE class=linkBlack onmouseover=this.stop()
+                                 onmouseout=this.start() scrollAmount=1 scrollDelay=1
+                                 direction=up height=95>
+                            ###focusNews###
+                        </MARQUEE>
+                    </td>
+                    <td width="24">&nbsp;</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

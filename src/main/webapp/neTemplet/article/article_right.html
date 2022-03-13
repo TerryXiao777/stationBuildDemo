@@ -1,0 +1,80 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="images/style.css" type="text/css">
+<script type="text/javascript">
+    function changeSizeShow(whichiframe){
+        var tag=parent.document.getElementById(whichiframe);
+        tag.height=document.body.scrollHeight;
+        tag.width=205;
+    }
+</script>
+<body onLoad="changeSizeShow('right')">
+<table width="205px" height="600px" border="0px" cellpadding="0px" cellspacing="0px" background="images/index_03.jpg">
+    <tr>
+        <td width="205" valign="top"><table width="191" height="186" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td height="186">&nbsp;</td>
+            </tr>
+        </table>
+            <table width="177" height="101" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="101">
+                        <MARQUEE class=linkBlack onmouseover=this.stop()
+                                 onmouseout=this.start() scrollAmount=1 scrollDelay=1
+                                 direction=up height=101>
+                            ###focusNews###
+                        </MARQUEE></td>
+                </tr>
+            </table>
+            <table width="195" height="42" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="42">&nbsp;</td>
+                </tr>
+            </table>
+            <table width="177" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="103">
+                        <MARQUEE class=linkBlack onmouseover=this.stop()
+                                 onmouseout=this.start() scrollAmount=1 scrollDelay=1
+                                 direction=up height=103>
+                            ###afficheNews###
+                        </MARQUEE>
+                    </td>
+                </tr>
+            </table>
+            <table width="195" height="37" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            <table width="177" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="128" ><br>
+                        <form name="form" method="post" action="">
+                            <table width="181" border="0" align="center">
+                                <tr>
+                                    <td width="67" height="27" valign="bottom">文章类型</td>
+                                    <td width="104" valign="bottom">
+                                        <select name="select2">
+                                        ###type###
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="27" valign="bottom">关&nbsp;键&nbsp;字</td>
+                                    <td valign="bottom"><input name="textfield2" type="text" size="15"></td>
+                                </tr>
+                                <tr>
+                                    <td height="27" valign="bottom">&nbsp;</td>
+                                    <td valign="bottom">
+                                        <input type="submit" name="Submit2" value=" 搜索 ">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>

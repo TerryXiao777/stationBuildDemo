@@ -1,0 +1,93 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="images/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+    function changeSizeShow(whichiframe){
+        var tag=parent.document.getElementById(whichiframe);
+        tag.height=document.body.scrollHeight;
+        tag.width=201;
+    }
+</script>
+<body onLoad="changeSizeShow('right')">
+
+<table width="201" height="648" border="0" cellpadding="0" cellspacing="0" background="images/index_03.jpg">
+    <tr>
+        <td width="201" valign="top"><table width="178" height="280" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td height="280">&nbsp;</td>
+            </tr>
+        </table>
+
+            <form name="form" method="post" action="">
+                <table width="185" border="0" align="center">
+                    <tr>
+                        <td width="73" height="27" valign="bottom">文章类型：</td>
+                        <td width="102" valign="bottom">
+                            <select name="select">
+                            ###type###
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="27" valign="bottom">关&nbsp;键&nbsp;字：</td>
+                        <td valign="bottom">
+                            <input name="textfield" type="text" size="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="27" valign="bottom">&nbsp;</td>
+                        <td valign="bottom">
+                            <input type="submit" name="Submit" value=" 搜索 ">
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+            <table width="178" height="117" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="29" height="117">&nbsp;</td>
+                    <td width="178">
+                        <MARQUEE class=linkBlack onmouseover=this.stop()
+                                 onmouseout=this.start() scrollAmount=1 scrollDelay=1
+                                 direction=up height=117>
+                            ###afficheNews###
+                        </MARQUEE>
+                    </td>
+                    <td width="21">&nbsp;</td>
+                </tr>
+            </table>
+
+
+
+            <table width="171" height="31" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="31">&nbsp;</td>
+                </tr>
+            </table>
+
+
+
+
+
+
+
+
+            <table width="178" height="94" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="29">&nbsp;</td>
+                    <td width="178">
+                        <MARQUEE class=linkBlack onmouseover=this.stop()
+                                 onmouseout=this.start() scrollAmount=1 scrollDelay=1
+                                 direction=up height=29>
+                            ###focusNews###
+                        </MARQUEE>
+
+                    </td>
+                    <td width="21">&nbsp;</td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+</body>
